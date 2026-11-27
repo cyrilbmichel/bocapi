@@ -1,0 +1,20 @@
+FRIGOCHEF — MVP GRATUIT DE TEST
+
+Ouvrir index.html dans Safari ou un navigateur récent.
+Pour tester :
+1. Ajouter quelques ingrédients dans Mon frigo.
+2. Cocher uniquement les indispensables réellement présents.
+3. Ouvrir Recettes : le mode par défaut n'affiche que les recettes dont tous les ingrédients obligatoires sont présents.
+4. Essayer le petit réassort, les préférences, les exclusions et l'export JSON.
+5. Dans Photographier mon frigo, choisir/prendre une photo puis cocher les ingrédients que vous reconnaissez.
+
+LIMITES HONNÊTES DE CETTE ÉDITION
+- La photo est affichée localement, mais aucune reconnaissance automatique par IA n'est activée.
+- Le code-barres se fait par saisie du numéro et consultation Open Food Facts ; la lecture caméra n'est pas garantie sur Safari iOS.
+- Les données restent sur cet appareil/navigateur : pas de compte, synchronisation cloud ou sauvegarde serveur.
+- Les recettes et estimations sont un petit catalogue de démonstration, pas une base culinaire exhaustive.
+- Les réglages alimentaires sont des filtres simples, pas une certification halal ni une garantie allergène/absence de traces.
+- Le manifeste et le service worker permettent une installation PWA quand le dossier est hébergé en HTTPS. L'ouverture directe du fichier ne permet pas l'installation PWA.
+
+AUCUN paiement, abonnement, clé API payante ou publicité n'est intégré.
+Open Food Facts : données contributives, pouvant être incomplètes. Respecter ses licences et conditions de réutilisation avant commercialisation.

@@ -1,0 +1,8 @@
+{
+  "name": "Bocapi — Les bonnes idées sont déjà là",
+  "short_name": "Bocapi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#315c48"
+}

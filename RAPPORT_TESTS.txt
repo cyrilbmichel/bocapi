@@ -1,0 +1,23 @@
+FRIGOCHEF — RAPPORT DE CONTRÔLES MVP
+Date : 27 novembre 2026
+
+Contrôles réalisés
+- Syntaxe JavaScript : PASS (Node.js --check).
+- Exécution des interactions principales en navigateur Chromium : PASS.
+- Résolution mobile/tablette/desktop simulée : 375×812, 390×844, 430×932, 768×1024 et 1280×900.
+- Débordement horizontal : aucun détecté sur les cinq tailles.
+- Erreurs JavaScript non gérées : aucune détectée sur les cinq tailles.
+- Ajout de deux ingrédients (œufs + beurre) : PASS.
+- Filtrage strict des recettes : avec seulement œufs + beurre, seule l'omelette correspondante apparaît : PASS.
+- Sélection d'une photo et affichage de son aperçu : PASS dans le navigateur de test.
+- Interface adaptée aux tailles mobiles et navigation par onglets : PASS en émulation Chromium.
+
+Ce qui n'a PAS été vérifié
+- Pas de test sur un véritable iPhone physique ni dans Safari iOS : l'environnement ne fournit pas le navigateur WebKit/Safari. L'émulation Chromium ne remplace pas un test Safari réel.
+- La reconnaissance automatique des aliments sur photo n'est pas incluse.
+- La caméra de lecture de code-barres n'est pas incluse ; saisie manuelle du code et recherche Open Food Facts uniquement.
+- La connexion Open Food Facts dépend du réseau et du service externe.
+- Le catalogue de recettes est volontairement réduit pour le MVP.
+
+Conclusion
+Le prototype est exécutable et ses fonctions principales testées en navigateur, mais il ne doit pas être présenté comme certifié Safari/iPhone. La prochaine étape technique pour un vrai test Safari fiable est de le servir depuis une URL HTTPS (PWA) puis de le tester sur appareil physique. La reconnaissance photo automatique nécessite ensuite un moteur de vision gratuit et suffisamment fiable, ou un service/API avec coûts et politique de confidentialité explicitement validés.
